@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface ImageItem {
   id: number;
@@ -16,6 +17,7 @@ interface ImageModalProps {
 
 export const ImageModal = ({ images, renderModal }: ImageModalProps) => {
   const [selectedImg, setSelectedImg] = useState<ImageItem | null>(null);
+  const t = useTranslations("imageModal");
 
   return (
     <>
@@ -48,7 +50,7 @@ export const ImageModal = ({ images, renderModal }: ImageModalProps) => {
             <div className="relative w-[80vw] h-[80vh]">
               <Image
                 src={selectedImg.src}
-                alt="Imagen ampliada"
+                alt={t("imagenAmpliada")}
                 fill
                 sizes="80vw"
                 className="rounded-lg object-contain"

@@ -2,20 +2,22 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 
-const links = [
-  { href: "/ilustraciones/proyectos", label: "Proyectos" },
-  { href: "/ilustraciones/libros", label: "Libros" },
-  { href: "/ilustraciones/carteles", label: "Carteles" },
-  { href: "/ilustraciones/logos", label: "Logos" },
-  { href: "/ilustraciones/animaciones", label: "Animaciones" },
+const subLinks = [
+  { href: "/ilustraciones/proyectos", key: "proyectos" },
+  { href: "/ilustraciones/libros", key: "libros" },
+  { href: "/ilustraciones/carteles", key: "carteles" },
+  { href: "/ilustraciones/logos", key: "logos" },
+  { href: "/ilustraciones/animaciones", key: "animaciones" },
 ];
 
 export const IllustrationsLinks = () => {
   const pathname = usePathname();
+  const t = useTranslations("illustrationsNav");
   return (
     <nav className="flex gap-4 sm:gap-10  text-xl sm:text-2xl ">
-      {links.map((link) => (
+      {subLinks.map((link) => (
         <Link
           key={link.href}
           href={link.href}
@@ -25,7 +27,7 @@ export const IllustrationsLinks = () => {
               : "text-zinc-800 hover:text-red-600"
           } transition-colors`}
         >
-          {link.label}
+          {t(link.key)}
         </Link>
       ))}
     </nav>

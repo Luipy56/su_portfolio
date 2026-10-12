@@ -1,14 +1,15 @@
 import Image from "next/image";
 import { ImageModal } from "./ImageModal";
+import { useTranslations } from "next-intl";
 
 interface CardBookProps {
   id: string;
   alt?: string;
   title: string;
   description: string;
-  year: number;
-  author: string;
-  illustrator: string;
+  year?: number;
+  author?: string;
+  illustrator?: string;
 }
 export const CardBook = ({
   id,
@@ -19,10 +20,11 @@ export const CardBook = ({
   author,
   illustrator,
 }: CardBookProps) => {
+  const t = useTranslations("card");
   const bookImageSrc = Array.from({ length: 4 }, (_, i) => ({
     id: i + 1,
     src: `/images/libros/libro${id}/libro${id}${i + 1}.webp`,
-    alt: `Imagen ${i + 1}`,
+    alt: t("imagenGeneric", { n: i + 1 }),
   }));
 
   return (
@@ -42,9 +44,9 @@ export const CardBook = ({
         <div className="flex flex-col justify-between">
           <h2 className="text-xl sm:text-3xl font-semibold">{title}</h2>
           <div className="font-yanone text-sm sm:text-lg">
-            <p>Autora: {author}</p>
+            <p>{t("autora")}: {author}</p>
             <div className="flex justify-between">
-              <p>Ilustradora: {illustrator}</p>
+              <p>{t("ilustradora")}: {illustrator}</p>
               <p>({year})</p>
             </div>
           </div>

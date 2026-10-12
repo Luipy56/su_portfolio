@@ -4,8 +4,11 @@ import Image from "next/image";
 import { Illustration, imagePool } from "../data";
 import { getRandomImages } from "../functions";
 import { useState, useEffect, useRef } from "react";
+import { useLocale } from "next-intl";
+import { getImageAlt } from "../i18n/imageAlts";
 
 export const AnimatedCollage = () => {
+  const locale = useLocale();
   const [images, setImages] = useState<Illustration[]>([]);
 
   const [selectedImages, setSelectedImages] = useState<Illustration | null>(
@@ -63,7 +66,7 @@ export const AnimatedCollage = () => {
           >
             <Image
               src={img.src}
-              alt={img.alt}
+              alt={getImageAlt(img.id, locale)}
               fill
               sizes="(max-width: 768px) 33vw, 25vw"
               className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -107,7 +110,7 @@ export const AnimatedCollage = () => {
           >
             <Image
               src={selectedImages.src}
-              alt={selectedImages.alt}
+              alt={getImageAlt(selectedImages.id, locale)}
               fill
               sizes="(max-width: 1024px) 100vw, 1024px"
               className="object-contain select-none"

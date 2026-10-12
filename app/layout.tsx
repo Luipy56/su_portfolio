@@ -3,6 +3,7 @@ import { Geist_Mono, Amatic_SC, Yanone_Kaffeesatz } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import { Footer } from "./components/Footer";
+import { NextIntlClientProvider } from "next-intl";
 
 const amaticSC = Amatic_SC({
   variable: "--font-amatic-sc",
@@ -27,22 +28,24 @@ export const metadata: Metadata = {
     "Ilustraciones y diseño gráfico de Susana Subirana. Diseño web y desarrollo por David Botello Chércoles",
 };
 
-const RootLayout = ({
+const RootLayout = async ({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) => {
   return (
-    <html
-      lang="es"
-      className={`${amaticSC.variable} ${geistMono.variable} ${yanone.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col items-center gap-12 sd:gap-8   bg-[#f5efe6aa] text-red-600">
-        <Header />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <NextIntlClientProvider>
+      <html
+        lang="es"
+        className={`${amaticSC.variable} ${geistMono.variable} ${yanone.variable} h-full antialiased`}
+      >
+        <body className="min-h-full flex flex-col items-center gap-12 sd:gap-8   bg-[#f5efe6aa] text-red-600">
+          <Header />
+          {children}
+          <Footer />
+        </body>
+      </html>
+    </NextIntlClientProvider>
   );
 };
 

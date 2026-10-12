@@ -2,16 +2,18 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-const links = [
-  { href: "/", label: "Inicio" },
-  { href: "/ilustraciones/proyectos", label: "Ilustración" },
-  { href: "/bio", label: "Bio" },
-  //{ href: "/tienda", label: "Tienda" },
-];
+import { useTranslations } from "next-intl";
 
 export const NavLinks = () => {
   const pathname = usePathname();
+  const t = useTranslations("nav");
+
+  const links = [
+    { href: "/", label: t("inicio") },
+    { href: "/ilustraciones/proyectos", label: t("ilustracion") },
+    { href: "/bio", label: t("bio") },
+    { href: "/tienda", label: t("tienda") },
+  ];
 
   return (
     <nav className="flex gap-6 md:gap-12 justify-center">

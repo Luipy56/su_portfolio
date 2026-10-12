@@ -4,7 +4,7 @@ interface CardBannerProps {
   title: string;
   description: string;
   id: string;
-  year: number;
+  year?: number;
 }
 
 export const CardBanner = ({

@@ -1,14 +1,15 @@
 import Image from "next/image";
 import { ImageModal } from "./ImageModal";
 import { ImageAnimation } from "./ImageAnimation";
+import { useTranslations } from "next-intl";
 
 interface CardProjectProps {
   id: string;
   alt?: string;
   title: string;
   description: string;
-  year: number;
-  hasAnimation: boolean;
+  year?: number;
+  hasAnimation?: boolean;
 }
 
 export const CardProject = ({
@@ -19,10 +20,11 @@ export const CardProject = ({
   year,
   hasAnimation = false,
 }: CardProjectProps) => {
+  const t = useTranslations("card");
   const projectImageSrc = Array.from({ length: 4 }, (_, i) => ({
     id: i + 1,
     src: `/images/proyectos/proyecto${id}/proyecto${id}${i + 1}.webp`,
-    alt: `Imagen ${i + 1}`,
+    alt: t("imagenGeneric", { n: i + 1 }),
   }));
 
   return (
