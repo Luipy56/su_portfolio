@@ -22,12 +22,12 @@ export const LanguageSwitcher = () => {
   );
 
   return (
-    <div className="flex items-center gap-1 text-sm font-sans">
+    <div className="flex items-center border border-1 rounded-sm border-zinc-300 gap-1 text-md font-sans">
       {locales.map((l) => (
         <button
           key={l.code}
           onClick={() => switchLocale(l.code)}
-          className={`transition-colors ${
+          className={`px-1 transition-colors ${
             locale === l.code
               ? "text-red-600 font-semibold"
               : "text-zinc-800 hover:text-red-600"
@@ -35,6 +35,7 @@ export const LanguageSwitcher = () => {
         >
           {l.label}
         </button>
+        
       ))}
     </div>
   );

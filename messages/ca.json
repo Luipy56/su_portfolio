@@ -24,14 +24,14 @@
     "credit": "Disseny web i desenvolupament per daboc"
   },
   "bio": {
-    "paragraph1": "Susana Subirana és una artista especialitzada en il·lustració amb seu a Barcelona. Amb més de 20 anys d'experiència, ha treballat en una ampla varietat de projectes, des de llibres infantils fins a cartells publicitaris. El seu estil es caracteritza per la seva càrrega didàctica, humorística i crítica, per l'amor al blanc i negre, l'ús vibrant del color i l'enfocament narratiu, creant imatges que compten històries i evoquen emocions. Al llarg de la seva carrera, Susana ha col·laborat amb editorials, agències de publicitat i marques, guanyant reconeixement per la seva creativitat i habilitat per comunicar visualment.",
-    "paragraph2": "Va estudiar música, cant i ball. 5 anys d'\"Arts i Oficis\" a l'Institut Berguedà. Carrera d'Arts Plàstiques a la Facultat de Belles Arts de Barcelona. Fotografia, dibuix, pintura i especialment il·lustració. Va treballar durant 5 anys il·lustrant articles d'opinió al diari Ara. Va crear la marca \"Laslolasplanet\", copropietària del local \"Soniquete\", \"Laslolaslocal\", \"Laslolasclub\" i la casa rural \"El paradís de laslolas\". Fins avui, Susana ha publicat 6 llibres il·lustrats. Actualment, és il·lustradora \"freelance\" (FlamencasFantásticas, Festival Kriatura, entre d'altres) i responsable de l'espai creatiu \"La cova de Laslolas\" a El Masnou.",
+    "paragraph1": "Susana Subirana és una artista especialitzada en il·lustració amb seu a Barcelona. Amb més de 20 anys d'experiència, ha treballat en una gran varietat de projectes, des de llibres infantils fins a cartells publicitaris. El seu estil es caracteritza per la seva càrrega didàctica, humorística i crítica, per l'amor al blanc i negre, l'ús vibrant del color i l'enfocament narratiu, creant imatges que compten històries i evoquen emocions. Al llarg de la seva carrera, Susana ha col·laborat amb editorials, agències de publicitat i marques, guanyant reconeixement per la seva creativitat i habilitat per comunicar visualment.",
+    "paragraph2": "Va estudiar música, cant, ball i 5 anys d'\"Arts i Oficis\" a l'Institut Berguedà. Carrera d'Arts Plàstiques a la Facultat de Belles Arts de Barcelona. Fotografia, dibuix, pintura i especialment il·lustració. Va treballar durant 5 anys il·lustrant articles d'opinió al diari Ara. Va crear la marca \"Laslolasplanet\", copropietària del local \"Soniquete\", \"Laslolaslocal\", \"Laslolasclub\" i la casa rural \"El paradís de laslolas\". Fins avui, Susana ha publicat 6 llibres il·lustrats. Actualment, és il·lustradora \"freelance\" (FlamencasFantásticas, Festival Kriatura, entre d'altres) i responsable de l'espai creatiu \"La cova de Laslolas\" a El Masnou.",
     "logoAlt": "Susana Subirana",
     "bottomRightAlt": "Susana Subirana"
   },
   "tienda": {
     "sectionTitle": "Flamencas Ilustradas",
-    "description": "Projecte col·laboratiu entre dos artistes, Arte sobre Arte. Col·lecció de dones flamencas en blanc i negre amb fotografies d'Isa de Calle i il·lustració de Susana Subirana. Presentada dins del Jerez OFF Festival de 2023.",
+    "description": "Projecte col·laboratiu entre dos artistes, Arte sobre Arte. Col·lecció de dones flamencas en blanc i negre amb fotografies d'Isa de Calle i il·lustració de Susana Subirana. Presentada dins del Jerez OFF Festival de 2023, Festival FlamenGi de Girona i a la Peña Flamenca de Vejer.",
     "price": "Preu: 36 euros",
     "buyButton": "Comprar"
   },
@@ -80,7 +80,7 @@
     },
     "2": {
       "title": "Flamencas Ilustradas",
-      "description": "FLAMENCAS ILUSTRADAS és un projecte col·laboratiu entre dos artistes, és Arte sobre Arte. Col·lecció de dones flamencas en Blanc i negre amb fotografies d'Isa de Calle i il·lustració de Susana Subirana. Còpies en venda disponibles a la botiga."
+      "description": "FLAMENCAS ILUSTRADAS és un projecte col·laboratiu entre dos artistes, és Art sobre Art. Col·lecció de dones flamencas en blanc i negre amb fotografies d'Isa de Calle i il·lustració de Susana Subirana. Còpies en venda disponibles a la botiga."
     },
     "3": {
       "title": "Guzzo",
@@ -88,7 +88,7 @@
     },
     "4": {
       "title": "Diari ARA",
-      "description": "Selecció d'il·lustracions per a articles d'opinió realitzades durant els 5 primers anys del periòdic \"Ara\" de Barcelona."
+      "description": "Selecció d'il·lustracions per a articles d'opinió realitzades durant els 5 primers anys del diari \"Ara\" de Barcelona."
     },
     "5": {
       "title": "Food Truck",
@@ -104,7 +104,7 @@
     },
     "8": {
       "title": "¿YO?",
-      "description": "Sèrie d'il·lustracions sobre personatges caricaturitzats que pretensen visibilitzar de forma crítica l'autonegació, l'evasió dels adjectius que els defineixen."
+      "description": "Sèrie d'il·lustracions sobre personatges caricaturitzats que pretenen visibilitzar de forma crítica l'autonegació, l'evasió dels adjectius que els defineixen."
     },
     "9": {
       "title": "VI-NOS",
@@ -113,28 +113,28 @@
   },
   "libros": {
     "1": {
-      "title": "De Els peus al Cap. El Meu 1er Vocabulari Flamenc",
-      "description": "Un àlbum imprescindible per descobrir mitjançant rimades enganxoses el significat d'aquestes quinze paraules tan flamenques: ventall, bata de cua, cant jond, cajón, castanyoles, compàs, duende, festa, flors, guitarra, jaleos, palms, palos, tablao, zapatejar. Un divertit curs de flamenc bàsic en verso i a tot color: vols aprendre a fer palms?, saps si tens duende?, com sonen les castanyoles?, quin és l'origen del cajón? Un regal per a totes les petites flamenques i flamencs de cor (encara que alguns encara no sapiguin que ho són)."
+      "title": "De los pies a la cabeza. Mi primer vocabulario flamenco",
+      "description": "Un àlbum imprescindible per descobrir mitjançant rimes enganxoses el significat de quinze paraules tan flamenques. Un divertit curs de flamenc bàsic en vers i a tot color: vols aprendre a fer compàs?, saps si tens \"duende\"?, com sonen les castanyoles?, quin és l'origen del \"cajón\"? Un regal per a totes les petites flamenques i flamencs de cor (encara que alguns encara no sapiguen que ho són)."
     },
     "2": {
-      "title": "Com es diuen les nenes flamenques?",
-      "description": "Les Nenes Flamenques tenen noms que sonen a palms, secrets, onades, trosons, talonets, cascavells, rialles, xiuxiuejos, pluja, festa... Les Nenes Flamenques es diuen com són. I tu? Coneix-les i inventa el teu nom flamenc! Àlbum il·lustrat que utilitza efectes pop-up com el Diorama o Carrusel. Editat per Combel-Casals"
+      "title": "¿Cómo se llaman la niñas flamencas?",
+      "description": "Les Nenes Flamenques es diuen com són. I tu? Coneix-les i inventa el teu nom flamenc! Àlbum il·lustrat que utilitza efectes pop-up com el Diorama o Carrusel. Editat per Combel-Casals, Barcelona."
     },
     "3": {
-      "title": "De què estan fetes les nenes flamenques?",
+      "title": "¿De qué están hechas las niñas flamencas?",
       "description": "Primer llibre POP_UP sobre flamenc per a nens. Àlbum il·lustrat que utilitza el Pop-up amb solapes, tiradors, rodes giratòries, carrusel i final amb teatret. Editat per Combel-Casals el 2011, descatalogat."
     },
     "4": {
-      "title": "Lola Flores Com em meravellaria jo?",
-      "description": "Com em meravellaria jo? és un passeig poètic i colorista, per la vida de Lola Flores; primera protagonista de la col·lecció \"Flamencas Fantásticas\", dedicada a Dones en la història del Flamenc. Podràs conèixer les seves aventures a través de Rimes divertides, colors brillants, jocs i exercicis didàctics."
+      "title": "Lola Flores ¿Cómo me maravillaría Yo?",
+      "description": "És un passeig poètic i colorista, per la vida de Lola Flores; primera protagonista de la col·lecció \"Flamencas Fantásticas\", dedicada a Dones en la història del Flamenc. Podràs conèixer les seves aventures a través de Rimes divertides, colors brillants, jocs i exercicis didàctics."
     },
     "5": {
-      "title": "Currita Nuñez. Una llargarda molt flamenca",
-      "description": "Currita Núñez és una llargarda amb molt d'art i salero, però un dia succeeix algo que li fa canviar per complet el compàs de la seva vida? Serà Currita capaç de recuperar el que la fa única?"
+      "title": "Currita Nuñez. Una lagartija muy flamenca",
+      "description": "Currita Núñez és una sargantana amb molt d'art i salero, però un dia succeeix algo que li fa canviar del tot el compàs de la seva vida? Serà Currita capaç de recuperar el que la fa única?"
     },
     "6": {
-      "title": "Flamenc i rumba des de Catalunya",
-      "description": "És un viatge d'anada i tornada, un recorregut per el món Flamenc/ Rumbero que des de Catalunya ha arribat a enamorar al món enter. Un àlbum il·lustrat per descobrir, conèixer i reconèixer alguns dels més importants. \"Cantaores\", \"bailaores\" i \"guitarristes\" que ha donat Catalunya. Dotze personatges, dotze notes i dotze colors per què aprenguis d'una manera divertida a reconèixer els nostres Artistes! ¡¡¡¡un aplaudiment per ells!!!! ¡ole!"
+      "title": "Flamenco y rumba desde Catalunya",
+      "description": "És un viatge d'anada i tornada, un recorregut per el món Flamenc/ Rumbero que des de Catalunya ha arribat a enamorar al món sencer. Un àlbum il·lustrat per descobrir, conèixer i reconèixer alguns dels més importants. \"Cantaores\", \"bailaores\" i \"guitarristes\" que ha donat Catalunya. Dotze personatges, dotze notes i dotze colors per què aprenguis d'una manera divertida a reconèixer els nostres Artistes! ¡¡¡¡un aplaudiment per ells!!!! ¡ole!"
     }
   },
   "carteles": {
@@ -216,15 +216,15 @@
     },
     "2": {
       "title": "Ana Crismán",
-      "description": "Ana Crismán, nascuda a Jerez de la Frontera (Cádiz), és la primera i l'única persona a nivell mundial que interpreta i compon flamenc amb arpa. Exòtica en el món musical i també en el flamenc, aquesta artista és absolutament única i exclusiva en el món enter."
+      "description": "Ana Crismán, nascuda a Jerez de la Frontera (Cádiz), és la primera i l'única persona a nivell mundial que interpreta i composa flamenc amb arpa. Exòtica en el món musical i també en el flamenc, aquesta artista és absolutament única i exclusiva en el món sencer."
     },
     "3": {
       "title": "Gema Moneo",
-      "description": "Gema Moneo (Jerez de la Frontera) és una bailaora flamenca, reconeguda pel seu temperament explosiu i la seva tècnica excepcional, combina el purisme de la seva herència gitana amb influències modernes de grans mestres. S'ha consolidat com un dels màxims exponents de l'escola del ball jerezano, combinant força, elegància i un ús molt expressiu dels braços."
+      "description": "Gema Moneo (Jerez de la Frontera) és una bailaora flamenca, reconeguda pel seu temperament explosiu i la seva tècnica excepcional, combina el purisme de la seva herència gitana amb influències modernes de grans mestres. S'ha consolidat com un dels màxims exponents de l'escola del ball de Jerez, combinant força, elegància i un ús molt expressiu dels braços."
     },
     "4": {
       "title": "Sofía del Río",
-      "description": "Sofía del Río és una destacada bailaora de flamenc madrilenya amb gran arrelament a Jerez. És àmpliament coneguda per les seves actuacions en escenaris emblemàtics i per ser la fundadora de La Soleá Flamenco, un centre dedicat a l'ensenyament i divulgació d'aquest art. Coneguda per la seva gran versatilitat i força sobre l'escenari, aportant elegància i un marcat compàs jerezano."
+      "description": "Sofía del Río és una destacada bailaora de flamenc madrilenya amb gran arrelament a Jerez. És àmpliament coneguda per les seves actuacions en escenaris emblemàtics i per ser la fundadora de La Soleá Flamenco, un centre dedicat a l'ensenyament i divulgació d'aquest art. Coneguda per la seva gran versatilitat i força sobre l'escenari, aportant elegància i un marcat compàs de Jerez."
     },
     "5": {
       "title": "Pastora Galván",
@@ -232,7 +232,7 @@
     },
     "6": {
       "title": "María del Tango",
-      "description": "María del Tango (Caniles) és cantant i músic, aficionada al flamenc. Va començar la seva trajectòria musical a una edat temprana, cantant saetes en la seva ciutat natal. Es va traslladar a Granada, on es va professionalitzar i va començar a compondre música per a actuacions carrereres i tablaos. Actualment, està immersa en el seu projecte en solitari \"Entre Dos Mundos\", on explora la dualitat entre el flamenc tradicional i sons contemporanis."
+      "description": "María del Tango (Caniles) és cantant i músic, aficionada al flamenc. Va començar la seva trajectòria musical a una edat primerenca, cantant saetes en la seva ciutat natal. Es va traslladar a Granada, on es va professionalitzar. Actualment, està immersa en el seu projecte en solitari \"Entre Dos Mundos\", on explora la dualitat entre el flamenc tradicional i sons contemporanis."
     },
     "7": {
       "title": "Mercedes Ruiz",
@@ -244,7 +244,7 @@
     },
     "9": {
       "title": "Juana La Del Pipa",
-      "description": "Juana La Del Pipa (Juana Fernández de los Reyes), cantaora i bailaora gitana, és d'una de les pures races d'artistes del món del millor art del cant i el ball flamenc, nascuda a Jerez de la Frontera (Cádiz). És la menor de les filles de Tía Juana la del Pipa."
+      "description": "Juana La Del Pipa (Juana Fernández de los Reyes), cantaora i bailaora gitana, racial i pura, nascuda a Jerez de la Frontera (Cádiz). És la menor de les filles de Tía Juana la del Pipa."
     },
     "10": {
       "title": "Paula Sierra",
@@ -252,23 +252,23 @@
     },
     "11": {
       "title": "Manuela Carpio",
-      "description": "Manuela Moneo Carpio (Jerez de la Frontera), bailaora de pur flamenc, més coneguda internacionalment en el món de la història de l'art del ball flamenc amb el seu propi nom artístic de Manuela Carpio. En els seus cognenys arrelegen dues famílies sense les que no es entendria el flamenc actual."
+      "description": "Manuela Moneo Carpio (Jerez de la Frontera), bailaora de pur flamenc, més coneguda internacionalment en el món de la història de l'art del ball flamenc amb el seu propi nom artístic de Manuela Carpio. En els seus cognoms, porta el segell de dues famílies sense les que no s'entendria el flamenc actual."
     },
     "12": {
       "title": "Dolores Agujetas",
-      "description": "Dolores de los Santos Bermúdez (Jerez de la Frontera), coneguda artísticament com \"Dolores Agujetas\", és una cantaora de flamenc gitana nascuda a Jerez de la Frontera. Posseeix una veu trencada i profunda, fidel a les seves arrels jerezanas."
+      "description": "Dolores de los Santos Bermúdez (Jerez de la Frontera), coneguda artísticament com \"Dolores Agujetas\", és una cantaora de flamenc gitana nascuda a Jerez de la Frontera. Posseeix una veu trencada i profunda, fidel a les seves arrels \"jerezanas\"."
     },
     "13": {
       "title": "La Tia Yoya",
-      "description": "Antonia Reyes Valencia, coneguda com Tía Yoya, filla de Tía Juana la del Pipa, és una figura legendaria del flamenc nascuda el 1939 i originària de l'emblemàtic Barri de Santiago a Jerez de la Frontera. Encara que es va dedicar a les tasques de la llar durant gran part de la seva vida, és considerada un autèntic icona i institució del ball per bulerías natural i casero."
+      "description": "Antonia Reyes Valencia, coneguda com Tía Yoya, filla de Tía Juana la del Pipa, és una figura legendaria del flamenc nascuda el 1939 i originària de l'emblemàtic Barri de Santiago a Jerez de la Frontera. Encara que es va dedicar a les tasques de la llar durant gran part de la seva vida, és considerada un autèntic icona i institució del ball per \"bulerías\" natural i autèntic."
     },
     "14": {
       "title": "La Macanita",
-      "description": "Tomasa Guerrero Carrasco (Jerez de la Frontera), més coneguda com \"La Macanita\", despunta en el cant des de nina. Cantaora llarga i plena de jondura, temple i pellizco, La Macanita és hereva i continuadora de veus cantaoras com La Paquera, Fernanda de Utrera i La Perla de Cadis. Artista d'ampli repertori, La Macanita emociona amb el seu inconfusible eco per soleá i brilla per bulerías."
+      "description": "Tomasa Guerrero Carrasco (Jerez de la Frontera), més coneguda com \"La Macanita\", despunta en el cant des de nena. Cantaora llarga i plena de \"jondura\", \"temple\" i \"pellizco\", La Macanita és hereva i continuadora de veus cantaoras com La Paquera, Fernanda de Utrera i La Perla de Cadis. Artista de gran repertori, La Macanita emociona amb el seu inconfusible eco per soleá i brilla per \"bulerías\"."
     },
     "15": {
       "title": "Adela Campallo",
-      "description": "Adela Campallo (Sevilla), és una ballarina i des de petita ha estat immersa en el món del flamenc. El seu padrí, el seu oncle i el seu germà Rafael són guitarristes, i la seva mare, encara que mai s'hagi dedicat a ella professionalment, sempre ha cantat a casa, així que Adela ha respirat flamenc des que era una nina."
+      "description": "Adela Campallo (Sevilla), és una ballarina i des de petita ha estat immersa en el món del flamenc. El seu padrí, el seu oncle i el seu germà Rafael són guitarristes, i la seva mare, encara que mai s'hagi dedicat a ella professionalment, sempre ha cantat a casa, així que Adela ha respirat flamenc des que era una nena."
     }
   }
 }
