@@ -10,14 +10,15 @@ const Header = () => {
     <header className="w-full relative  flex items-center gap-2 sm:gap-4 justify-center">
       <Link
         href="/bio"
-        className=" absolute top-2 left-2 bg-[#e6ded2] rounded-lg p-1  "
+        className=" absolute top-2 left-2 bg-[#e6ded2] rounded-sm  p-1"
       >
         <Image
           src="/images/home/susulogo.webp"
           alt={t("logoAlt")}
           width={20}
           height={20}
-          className="rounded-lg object-cover "
+          className="
+           object-cover "
         />
       </Link>
 
