@@ -32,6 +32,7 @@ export const ImageModal = ({ images, renderModal }: ImageModalProps) => {
               src={img.src}
               alt={img.alt}
               fill
+              unoptimized
               sizes="(max-width: 768px) 50vw, 33vw"
               className="rounded-lg object-cover hover:opacity-80 transition-opacity"
             />
@@ -52,6 +53,7 @@ export const ImageModal = ({ images, renderModal }: ImageModalProps) => {
                 src={selectedImg.src}
                 alt={t("imagenAmpliada")}
                 fill
+                unoptimized
                 sizes="80vw"
                 className="rounded-lg object-contain"
               />
